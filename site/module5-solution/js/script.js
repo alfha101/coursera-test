@@ -118,7 +118,7 @@ function buildAndShowHomeHTML (categories) {
       // it into the home html snippet.
       //
       // var homeHtmlToInsertIntoMainPage = ....
-      var homeHtmlToInsertIntoMainPage = insertProperty(menuItemHtml,
+      var homeHtmlToInsertIntoMainPage = insertProperty(homeHtmlUrl,
                      "short_name",
                      chosenCategoryShortName);
 
